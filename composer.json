@@ -1,0 +1,27 @@
+{
+    "name": "smysloff/singleton-trait",
+    "description": "PHP Singleton trait to make singleton classes",
+    "keywords": [
+        "singleton",
+        "trait",
+        "php"
+    ],
+    "type": "library",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Alexander Smyslov",
+            "email": "kokoc.smyslov@yandex.ru",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Smysloff\\Traits\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^7.4|^8.0"
+    }
+}
